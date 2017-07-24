@@ -1,0 +1,16 @@
+Programming for Bioinformatics
+Course No: BMB 512, Credit: 3.0
+Introduction to programming, 
+Strings in programming, 
+Variables and References, 
+Lists and the 'for'loop, 
+Stepping through a 'for' loop, 
+The if statement and files, 
+Working on exercises (a few notesfirst), 
+Code Blocks and Indentation, 
+Functions, Why?, 
+Dictionaries, 
+Advanced Exercises, 
+Sorting and Modules, 
+Searching and Regular Expressions, 
+Important modules: Biopython, SQL & COM, Everything Else,
