@@ -1,4 +1,3 @@
-'''
 #01 area of a rectangle
 h = input("Input the height: ")
 w = input("Input the width: ")
@@ -94,7 +93,7 @@ G = seq.count("G")
 C = seq.count("C")
 GC = (G+C)*100/total
 print "GC content:", GC ,"%"
-'''
+
 
 
 #13 Mutation in random position
@@ -236,4 +235,3 @@ elif y%4 == 0:
     print "Leap year"
 else:
     print "Not Leap year"
-'''
