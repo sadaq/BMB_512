@@ -68,7 +68,7 @@ for i in money:
     print i
 #2
 for i in money:
-    if i>20:
+    if i>10:
         print i
 #3
 for i in sorted(money, reverse = True):

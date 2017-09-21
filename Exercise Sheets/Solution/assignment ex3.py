@@ -1,4 +1,4 @@
-
+'''
 #01 area of a rectangle
 h = input("Input the height: ")
 w = input("Input the width: ")
@@ -31,12 +31,23 @@ h_sqr = a**2 + b**2
 print h_sqr
 
 #06 Find the root
-a= input()
-b= input()
-c= input()
-x1 = (-b+(b**2-4*a*c)**.5)/2*a
-x2 = (-b-(b**2-4*a*c)**.5)/2*a
-print "x1 =", x1, " x2 =",x2
+import math
+a= input("input a: ")
+b= input("input b: ")
+c= input("input c: ")
+d = b**2-4*a*c
+if d>=0:
+    e = math.sqrt(d)
+    x1 = (-b+e)/2*a
+    x2 = (-b-e)/2*a
+    print "x1 =", x1,', ' " x2 =",x2
+else:
+    d = -d
+    e = math.sqrt(d)
+    x = (-b/2*a)
+    y = (e/2*a)
+    print "x1= %.2f + %.2fi "%(x,y), ",", "x1= %.2f - %.2fi "%(x,y)
+
 
 
 #07 print hello Name
@@ -48,6 +59,7 @@ print "Hello", name
 import random
 for i in range(0,4):
     print random.random(),",",
+
 
 #09 print pi 12 digits
 from math import pi
@@ -61,6 +73,7 @@ price_vat = price + price*vat
 total = price_vat + price_vat*s_charge
 print "You have to pay:", total
 
+
 #11 Count the frequency of "ATGC"
 seq = raw_input("Input the nucleotide sequence: ")
 seq = seq.upper()
@@ -71,6 +84,7 @@ C = seq.count("C")
 U = seq.count("U")
 print "A:",A,",T:",T,",G:",G,",C:",C,",U:",U
 
+
 #12 Calculate GC content
 
 seq = raw_input("Input the nucleotide sequence: ")
@@ -80,6 +94,7 @@ G = seq.count("G")
 C = seq.count("C")
 GC = (G+C)*100/total
 print "GC content:", GC ,"%"
+'''
 
 
 #13 Mutation in random position
@@ -96,6 +111,19 @@ while mutation == seq[n]:
 new = seq[:n] + mutation + seq[(n+1):]
 print "Random mutation at %dth position"%(n+1)
 print new
+
+#v2
+import random
+seq = raw_input("Input the original sequence: ")
+seq = seq.upper()
+l = len(seq)
+n = random.randint(0,l)
+print n
+mutation = random.choice("ATGC")
+new = seq.replace(seq[n-1], mutation)
+print new
+
+
 
 #14 positive, negative or zero
 i = input('Input the number: ')
@@ -208,4 +236,4 @@ elif y%4 == 0:
     print "Leap year"
 else:
     print "Not Leap year"
-
+'''
