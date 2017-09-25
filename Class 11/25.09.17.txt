@@ -1,0 +1,15 @@
+Problem solving:(for loop)
+accessing the each items of a collection by loop 
+01. Add only the positive numbers from a list
+02. Count the positive numbers from a list
+03. Average of the numbers from above problem
+04. Count the GC content
+05. Count GC content of several sequences
+	We have 5 sequences in a list and we want to calculate the GC content of each of the sequences.
+
+While loop: Do something untill a statement is true.
+06. Input one number for several times. (untill user wants)
+07. Input one number for specific times.
+
+Homework : Game_of_TetulBichi
+		opponant: computer
