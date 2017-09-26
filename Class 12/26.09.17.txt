@@ -1,0 +1,3 @@
+Nested loop
+Problems:
+1. Codon generator using loop(length = 2)
