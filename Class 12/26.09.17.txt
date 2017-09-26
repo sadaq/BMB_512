@@ -1,3 +1,13 @@
 Nested loop
+access item of a list/str using loop
 Problems:
 1. Codon generator using loop(length = 2)
+2. find the 2 base length codons of a sequence
+3. add 10 to all the items of a list
+
+Dictionary:
+addition
+deletion
+replace
+find keys, values, item pair
+
