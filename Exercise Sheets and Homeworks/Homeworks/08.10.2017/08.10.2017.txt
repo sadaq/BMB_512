@@ -6,3 +6,7 @@ Take a sequence
 Check if DNA or RNA sequence
 Make RNA sequence
 Make dictionary of codons
+Find the codons in the sequence
+Replace them with amino acids
+Add amino acids to get protein sequence
+Print protein sequence

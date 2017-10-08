@@ -16,8 +16,9 @@ RNAcodon = {'UUU':"F", 'UUC':"F", 'UUA':"L", 'UUG':"L",
             'GGU':"G", 'GGC':"G", 'GGA':"G", 'GGG':"G"}
 seq = raw_input("Insert the sequence(DNA/RNA):" )
 #AUGATTACAGTCGATCGATCGATGCCATTCGATCGATCCAGCTAGCTACGCTACGTACGA
-
+#MITVDRSMPFDRSSXLRYVR
 seq = seq.upper()
+
 if seq.find("T") != -1:
     RNA = seq.replace('T',"U")
 else:
