@@ -21,6 +21,8 @@ if seq.find("T") != -1:
 else:
     RNA = seq
 c1 = len(RNA)
+if c1%3 !=0:
+    c1-= (c1%3)
 c2 = 0
 c3 = 0
 Pseq = ''
@@ -30,4 +32,4 @@ while c2<c1:
     c3+=3
     c2+=3
 
-print Pseq
+print "The protein sequence: ",Pseq
