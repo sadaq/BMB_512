@@ -2,3 +2,6 @@ Dictionary practice
 
 ##Problem solving:
     1. Reverse complement
+
+Homework:
+input a sequence, convert it to protein seq

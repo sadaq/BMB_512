@@ -40,7 +40,15 @@ for i in s1:        ##Access every base
 
 print s2            ##Print complement
 
+#Reverse complement using dictionary
 
+s = 'ATACCA'
+r = s[::-1]
+c = ''
+cd ={'A':"T", 'T':"A", 'G':"C", 'C':"G"}
+for b in r:
+    c+=cd[b]
 
+print c
 
 

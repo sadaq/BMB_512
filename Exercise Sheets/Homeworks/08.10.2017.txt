@@ -1,0 +1,8 @@
+Take a DNA/RNA sequence as input convert it to protein sequence, Finally print it.
+
+steps:
+
+Take a sequence
+Check if DNA or RNA sequence
+Make RNA sequence
+Make dictionary of codons
