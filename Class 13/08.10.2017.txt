@@ -1,0 +1,4 @@
+Dictionary practice
+
+##Problem solving:
+    1. Reverse complement

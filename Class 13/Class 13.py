@@ -40,3 +40,7 @@ for i in s1:        ##Access every base
 
 print s2            ##Print complement
 
+
+
+
+
