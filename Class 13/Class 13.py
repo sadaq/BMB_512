@@ -18,7 +18,7 @@ names.items()
 
 
 '''
-#reverse complement
+#Reverse complement
 s = "ATACCA"        ##input sequence
 
 s1 = s[::-1]        ##Reverse the sequence
@@ -39,3 +39,4 @@ for i in s1:        ##Access every base
         s2+=i
 
 print s2            ##Print complement
+
