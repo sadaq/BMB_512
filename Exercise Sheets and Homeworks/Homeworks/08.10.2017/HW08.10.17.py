@@ -1,3 +1,8 @@
+"""
+This code is to convert DNA/RNA sequence to protein sequence
+-Sadaqur Rahman
+"""
+
 RNAcodon = {'UUU':"F", 'UUC':"F", 'UUA':"L", 'UUG':"L",
             'UCU':"S", 'UCC':"S", 'UCA':"S", 'UCG':"S",
             'UAU':"Y", 'UAC':"Y", 'UAA':"X", 'UAG':"X",
