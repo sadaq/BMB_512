@@ -2,6 +2,10 @@
 This code is to convert DNA/RNA sequence to protein sequence
 -Sadaqur Rahman
 """
+# input a DNA/RNA sequence
+# make a dictionary with all the codons and their corresponding amino acids
+# loop over the sequence and find the amino acids for the codons
+
 
 RNAcodon = {'UUU':"F", 'UUC':"F", 'UUA':"L", 'UUG':"L",
             'UCU':"S", 'UCC':"S", 'UCA':"S", 'UCG':"S",
