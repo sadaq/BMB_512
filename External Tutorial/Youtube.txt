@@ -1,0 +1,70 @@
+## Basic Python ##
+Python 2.7 Tutorial (Derek Banas)
+https://www.youtube.com/playlist?list=PLA175E8A1816CD64B
+
+(Python 3 Tutorial)
+Python Tutorial (Derek Banas)
+https://www.youtube.com/playlist?list=PL3072C720775B213E
+
+Python 3.4 Programming Tutorials (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+
+Python Programming (in one video) (Derek Banas)
+https://www.youtube.com/watch?v=N4mEzFDjqtA
+
+Coding Python to Learn it (All Programming)
+https://www.youtube.com/playlist?list=PLbW_am_GRTo1c2PA4OU_MX_FkcQF1FkP4
+
+Python 3 From Scratch to Developer (All Programming) (Udemy)
+https://www.youtube.com/playlist?list=PLbW_am_GRTo2ETOGsNjdRvxRKC3p2yQ8o
+
+## Django ##
+
+Django Tutorial (Derek Banas)
+https://www.youtube.com/playlist?list=PLGLfVvz_LVvSMqZiTTsAC7C8Ypp81Jt6D
+
+Django Tutorials for Beginners (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBlmzzFcLgDhKTTfNLfX1IK
+
+## Tkinter ##
+
+TkInter Tutorial (Derek Banas)
+https://www.youtube.com/playlist?list=PLGLfVvz_LVvSj3Nn_zeqWFnBusqvsjMqF
+
+Python GUI with Tkinter Playlist (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d
+
+Playing Python GUI's with Tkinter (All Programming) (Lynda)
+https://www.youtube.com/playlist?list=PLbW_am_GRTo1J1iKtLjSORkzLioT05u-I
+
+## Misc ##
+
+Python GUI Development with GTK+ 3 (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBBnHFDEANbv9q8T4CONGZE
+
+Kivy Tutorial (Derek Banas)
+https://www.youtube.com/playlist?list=PLGLfVvz_LVvTAZ-OcNIXe05srJRXaJRd9
+
+Flask Web Development with Python Tutorials (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDi9F_slcQK7knjtO8TUvUs
+
+Python Web Crawler Tutorials (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGA8Vys-f48mAH9OKSUyav0q
+
+Python Website Scanner Tutorials (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBuWk2MR-drcaZAh8hdRUHq
+
+Python Network Packet Sniffer Tutorials (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDdduy0IPDDHYnUx66Vc4ed
+
+Python Reverse Shell Tutorials (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGCbpkBEMiCaiu_3OL-_Bz_8
+
+Pygame (Python Game Development) Playlist (thenewboston)
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAjkwJocj7vlc_mFU-4wXJq
+
+Python Desktop Application Development (All Programming) (Pluralsight)
+https://www.youtube.com/playlist?list=PLbW_am_GRTo3D2HNO3PICb-n8Fi8k6VCR
+
+Learning Python in Deep (All Programming) (Packt)
+https://www.youtube.com/playlist?list=PLbW_am_GRTo1vIxMK4jUc9ZLvW-P6QL6N
