@@ -1,1 +1,2 @@
 solution of Homework of 08.10.2017
+(Generate protein sequence from DNA/RNA sequence)
