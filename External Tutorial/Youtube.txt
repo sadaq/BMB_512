@@ -9,6 +9,9 @@ https://www.youtube.com/playlist?list=PL3072C720775B213E
 Python 3.4 Programming Tutorials (thenewboston)
 https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
 
+Python 3 Basics Tutorial Series (sentdex)
+https://www.youtube.com/playlist?list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M
+
 Python Programming (in one video) (Derek Banas)
 https://www.youtube.com/watch?v=N4mEzFDjqtA
 
