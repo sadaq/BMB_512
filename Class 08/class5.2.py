@@ -1,4 +1,4 @@
-'''
+
 #a is greater or less
 a = input("input a number: ")
 if a>0:
@@ -53,4 +53,4 @@ elif b < 0:
     print "negative"
 else:
     print "zero"
-'''
+
