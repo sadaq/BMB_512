@@ -1,0 +1,4 @@
+File operation
+	read characterwise 
+	read linewise
+	read and count charecters

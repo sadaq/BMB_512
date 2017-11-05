@@ -1,0 +1,5 @@
+Function
+#printing hello
+#length function
+#odd or even
+#base count
