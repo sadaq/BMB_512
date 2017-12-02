@@ -1,0 +1,15 @@
+#infinite loop
+#control
+    while for if else try except continue break
+
+#dot plot
+
+#consensus sequence- count and add to a new seq
+
+#digest peptide
+    using letter
+
+# runtime
+
+#file system
+xml, csv, genbank,

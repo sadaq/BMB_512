@@ -1,0 +1,27 @@
+Algorithm
+    Step by step procedure to solve a problem
+    a process or set of rules to be followed in calculations or other problem-solving operations
+
+complexity (Computational complexity)
+
+
+time complexity
+    In computer science, the time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of the length of the string representing the input.
+    The time complexity of an algorithm is commonly expressed using big O notation, which excludes coefficients and lower order terms.
+    When expressed this way, the time complexity is said to be described asymptotically, i.e., as the input size goes to infinity.
+    For example, if the time required by an algorithm on all inputs of size n is at most 5n3 + 3n for any n (bigger than some n0), the asymptotic time complexity is O(n3).
+
+memory complexity
+    Memory complexity is the size of work memory used by an algorithm.
+
+best-case complexity
+    This is the complexity of solving the problem for the best input of size n.
+
+worst case complexity
+    This is the complexity of solving the problem for the worst input of size n
+
+average case complexity
+    This is the complexity of solving the problem on an average.
+    This complexity is only defined with respect to a probability distribution over the inputs.
+    For instance, if all inputs of the same size are assumed to be equally likely to appear,
+    the average case complexity can be defined with respect to the uniform distribution over all inputs of size n.
