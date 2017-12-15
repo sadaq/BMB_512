@@ -1,0 +1,41 @@
+Collections
+Instances of primitive Python types represent individual values. Python also has built-in types that are 
+compound, meaning that they group together multiple objects. These are called collections or containers.
+There are three categories of built-in collection types in Python: 
+sets, 
+sequences and 
+mappings.
+
+
+Parsing
+Parsing, syntax analysis or syntactic analysis is the process of analysing a string of symbols,
+either in natural language or in computer languages, conforming to the rules of a formal grammar.
+
+Biopython
+The Biopython Project is an international association of developers of freely available Python
+http://www.python.org] tools for computational molecular biology.
+provides an online resource for modules, scripts, and web links for developers of Python-based software
+for bioinformatics use and research. Biopython features include parsers for various Bioinformatics file formats 
+IBLAST, Clustalw, FASTA, Genbank,...), access to online services (NCBI, Expasy,...), interfaces to common and
+not-so-common programs [Clustalw, DSSP, MSMS...), a standard sequence class, various clustering modules, 
+a KD tree data structure etc. and even documentation.
+
+Biopython features:
+1. The ability to parse bioinformatics files into Python utilizable data structures, including support for the 
+following formats: Blast output - both from standalone and \MWW Blast, Clustalw, FASTA, GenBank, PubMed and Medline, 
+ExPASy files, like Enzyme and Prosite, SCOP, including'dom'and'lin'files, UniGene, SwissProt
+2. Files in the supported formats can be iterated over record by record or indexed and accessed via a 
+Dictionary interface.
+3. Code to deal with popular on-line bioinformatics destinations such as:
+o NCBI - Blast, Entrez and PubMed services
+o ExPASy - Swiss-Prot and Prosite entries, as well as Prosite searches
+4. Interfaces to common bioinformatics programs such as:
+o Standalone Blast from NCBI
+o Clustalw alignment program
+o EMBOSS command line tools
+5. A standard sequence class that deals with sequences, ids on sequences, and sequence features.
+6. Tools for performing common operations on sequences, such as translation, transcription and weight calculations.
+7. Code to perform classification of data using k Nearest Neighbors, Naive Bayes or Support Vector Machines.
+8. Code for dealing with alignments, including a standard way to create and deal with substitution matrices.
+9. GUI-based programs to do basic sequence manipulations, translations, BLASTing, etc.
+10. Integration with BioSQL, a sequence database schema also supported by the BioPerl and Biofava projects.

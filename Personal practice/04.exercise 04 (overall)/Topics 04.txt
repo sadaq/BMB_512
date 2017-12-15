@@ -1,0 +1,9 @@
+Collections
+dictionary
+functions
+control statement
+file operation
+csv, xml
+complexity
+algorithom
+data type

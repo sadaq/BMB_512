@@ -1,0 +1,5 @@
+String operation
+list operation
+Swap values
+loop
+conditional

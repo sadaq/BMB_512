@@ -6,12 +6,12 @@ for i in bases:
 	for j in bases:
 		print i+j,
 	print ""
-	
+
 #find the 2 base length codons of a sequence
 
-seq = "ATACGAAT"
+s = "ATACGAAT"
 
-n = len(seq)
+n = len(s)
 i = 0
 while i<n:
 	print s[i]

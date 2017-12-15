@@ -1,3 +1,4 @@
+#random mutation
 import random
 seq = raw_input("Input the original sequence: ")
 seq = seq.upper()
