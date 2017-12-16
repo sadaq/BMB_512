@@ -188,11 +188,28 @@ for i in kmer:
     if len(i)==k:
         print i,
 
+#igonre this
+print''
 #14 digest a protein
+dp = 'I'
+seq = 'MRHIAHTQRCLSRLTSLVALLLIVLPMVFSPAHSCGPGRGLGRHRARNLYPLVLKQTIPNLSEYTNSASGPLEGVIRRDSPKFKDLVPNYN RDI LFRDEE'
+peptides = seq.split(dp)
+
+print peptides
+
+
 
 #15 align two sequences
 
+
 #16 ORF
+start = "AUG"
+end = "UAG"
+seq ='AGCAUGAAUGCAUGCACCACGAAAUAGUUAGGAUCG'
+s = seq.find(start)
+e = seq.find(end)
+orf = seq[s:e+3]
+print orf
 
 #17 longest ORF
 
