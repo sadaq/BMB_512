@@ -170,44 +170,78 @@ for i in bases:
         print ''
     print ''
 
-#12
-
-#13
+#12 consensus sequence
 
 
-#14
 
-#15
 
-#16
+#13 all the k-mers
+k = 3
+seq = 'ATGCGTAGC'
+kmer = []
+a = 0
+for i in range(len(seq)):
+    mer = seq[a:a+k]
+    kmer.append(mer)
+    a+=1
+for i in kmer:
+    if len(i)==k:
+        print i,
 
-#17
+#14 digest a protein
+
+#15 align two sequences
+
+#16 ORF
+
+#17 longest ORF
 
 
 
 
 # FIles
 #2
+
 #3
+
 #4
+
 #5
+
 #6
+
 #7
+
 #8
+
 
 
 # Biopython
 #1
+
 #2
+
 #3
+
 #4
+
 #5
+
 #6
+
 #7
+
 #8
+
 #9
 
 #Trivial
+
+#5
+
+
+#6
+
 
 
 
