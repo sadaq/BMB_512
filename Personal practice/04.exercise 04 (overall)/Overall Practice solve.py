@@ -129,7 +129,17 @@ for i in s1:
             print ".",
     print""
 
-#8
+#8 Random nucleotide sequence
+import random
+N = 7
+bases = 'ATGC'
+finalseq = ''
+for i in range(N):
+    tem = random.choice(bases)
+    finalseq += tem
+print finalseq
+
+#9 
 
 
 
