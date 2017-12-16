@@ -107,8 +107,6 @@ peptides = seq.split(dp)
 
 print peptides
 
-
-
 #15 align two sequences
 
 
@@ -121,13 +119,13 @@ list0 = []
 a = "AAA"
 while a!= end:
     if len(a) == 3:
-        mer = seq[s:s+3]
-        list0.append(mer)
-print list0
-
-# e = seq.find(end)
-# orf = seq[s:e+3]
-# print orf
+        a = seq[s:s+3]
+        list0.append(a)
+        s+=3
+orf =''
+for i in list0:
+    orf+=i
+print orf
 
 #17 longest ORF
 
