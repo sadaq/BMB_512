@@ -56,10 +56,6 @@ with open('03.fasta', 'r') as fh:
                 fseq += seq
             fh2.write(fseq)
 
-
-
-
-
 #6
 import csv
 

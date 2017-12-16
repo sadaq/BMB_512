@@ -1,0 +1,59 @@
+BLASTN 2.7.1+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+
+RID: 3A6WVYGB114
+
+
+Query= 
+Length=99
+
+
+                                                                   Score     E
+Sequences producing significant alignments:                       (Bits)  Value
+
+Query_139005                                                       27.3    5e-05
+
+ALIGNMENTS
+>Query_139005 
+Length=96
+
+ Score = 27.3 bits (15),  Expect = 5e-05
+ Identities = 21/24 (88%), Gaps = 1/24 (4%)
+ Strand=Plus/Plus
+
+Query  4   GCAGCGCA-GCAGATACGACTATA  26
+           |||||||  ||||||||||| |||
+Sbjct  57  GCAGCGCGCGCAGATACGACGATA  80
+
+
+ Score = 22.2 bits (12),  Expect = 0.002
+ Identities = 66/93 (71%), Gaps = 21/93 (23%)
+ Strand=Plus/Plus
+
+Query  3   CGCAG-C-GCAGCAGATA--CGACTA-TATACTACAGTATCG-CGAcagcatagcagcat  56
+           ||||| | |||||||| |  || | |  || | ||||||  | |||||||  ||||||  
+Sbjct  11  CGCAGACAGCAGCAGACAGCCG-C-AGCAT-CGACAGTA--GACGACAGC--AGCAGC-G  62
+
+Query  57  agcagcagcata-g-cagATTTCATCA-TATAT  86
+            || |||| ||| | | || | ||||| |||||
+Sbjct  63  CGC-GCAG-ATACGAC-GA-TACATCATTATAT  91
+
+
+ Score = 17.0 bits (9),  Expect = 0.061
+ Identities = 11/12 (92%), Gaps = 1/12 (8%)
+ Strand=Plus/Plus
+
+Query  5   CAGCGCAG-CAG  15
+           |||||||| |||
+Sbjct  8   CAGCGCAGACAG  19
+
+
+
+
+
+
