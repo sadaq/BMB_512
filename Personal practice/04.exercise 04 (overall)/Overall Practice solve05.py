@@ -49,6 +49,9 @@ with open('input.txt', 'r') as fh:
 #7
 
 #8
-
+from Bio import Phylo
+tree = Phylo.read("simple.dnd", "newick")
+print(tree)
+Phylo.draw_ascii(tree)
 
 
