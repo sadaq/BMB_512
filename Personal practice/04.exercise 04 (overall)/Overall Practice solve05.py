@@ -42,8 +42,22 @@ with open('input.txt', 'r') as fh:
         fh2.write(sum)
 #5
 with open('03.fasta', 'r') as fh:
-    lines0 = fh.readlines()
-    print lines0
+    with open('03output.txt', 'w')as fh2:
+        lines0 = fh.readlines()
+        for line in lines0:
+            fseq= ''
+            if line.startswith(">"):
+                id = line
+                id = id.strip()
+                fh2.write("\n"+id+"\n")
+            else:
+                seq= line
+                seq = seq.strip()
+                fseq += seq
+            fh2.write(fseq)
+
+
+
 
 
 #6
