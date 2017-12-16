@@ -94,7 +94,7 @@ print A, T, G, C
 #3 odd total
 n = 10
 total = 0
-for i in range(0,n+1):
+for i in range(1,n+1):
     if i%2 !=0:
         total+= i
 print total
@@ -108,8 +108,28 @@ for i in range(0,n+1):
 print total
 
 #5
+seq = 'ATCGTAGCTAG'
+length = 0
+for i in seq:
+    length += 1
+print length
 
+#6
+#same as 5
 
+#7
+s1 = "ATGCATGC"
+s2 = "ATGCATGC"
+
+for i in s1:
+    for j in s2:
+        if i == j:
+            print "*",
+        else:
+            print ".",
+    print""
+
+#8
 
 
 
