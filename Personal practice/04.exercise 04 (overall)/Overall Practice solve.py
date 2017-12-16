@@ -149,8 +149,47 @@ for i in range(N):
     pseq += tem
 print pseq
 
-#10
+#10 find point mutation
+s1 = "ATGCATGC"
+s2 = "TTGCATTC"
 
+for i in range(len(s1)):
+    if s1[i] != s2[i]:
+        print i+1,
+
+#ignore this print
+print ''
+#11
+
+bases = "ATGC"
+
+for i in bases:
+    for j in bases:
+        for k in bases:
+            print i+j+k,
+        print ''
+    print ''
+
+#12
+
+#13
+
+
+#14
+
+#15
+
+#16
+
+#17
+
+
+
+
+# FIles
+#2
+#3
+#4
 
 
 
