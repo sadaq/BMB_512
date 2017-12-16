@@ -41,12 +41,35 @@ with open('input.txt', 'r') as fh:
         sum = str(sum)
         fh2.write(sum)
 #5
-
+with open('03.fasta', 'r') as fh:
+    lines0 = fh.readlines()
+    print lines0
 
 
 #6
+import csv
+
+data = []
+with open('csvfile.csv','r') as csvf:
+    with open('csvoutput.txt', 'w') as csvo:
+        csvreader = csv.reader(csvf)
+        for row in csvreader:
+            data.append(row)
+        print data
+        csvwriter = csv.writer(csvo)
+        for row in data:
+            csvwriter.writerow(row[:5])
+
 
 #7
+from xml.etree import ElementTree as et
+
+with open('xmlfile.xml', 'r') as xmlf:
+    tree = et.parse(xmlf)
+
+    for entry in tree.iter():
+        print entry.tag, entry.attrib, entry.text
+
 
 #8
 from Bio import Phylo
