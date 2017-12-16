@@ -139,8 +139,17 @@ for i in range(N):
     finalseq += tem
 print finalseq
 
-#9 
+#9
+import random
+N = 15
+aa = 'ARNDBCEQZGHILKMFPSTWYV'
+pseq = ''
+for i in range(N):
+    tem = random.choice(aa)
+    pseq += tem
+print pseq
 
+#10
 
 
 
