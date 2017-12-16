@@ -81,7 +81,25 @@ for i in bases:
     print ''
 
 #12 consensus sequence
+seqList = ['TTCAAGCT','TGGCAACT','TTGGATCT','TAGCAACC','TTGGAACT','ATGCCATT','ATGGCACT']
+n = len(seqList[0])
+profile = { 'T':[0]*n,'G':[0]*n ,'C':[0]*n,'A':[0]*n }
 
+for seq in seqList:
+
+    for i, char in enumerate(seq):
+        profile[char][i] += 1
+
+consensus = ""
+for i in range(n):
+    max_count = 0
+    max_nt = 'x'
+    for nt in "ACGT":
+        if profile[nt][i] > max_count:
+            max_count = profile[nt][i]
+            max_nt = nt
+    consensus += max_nt
+print "consensus sequence: ",consensus
 
 
 
@@ -102,10 +120,10 @@ for i in kmer:
 print''
 #14 digest a protein
 dp = 'I'
-seq = 'MRHIAHTQRCLSRLTSLVALLLIVLPMVFSPAHSCGPGRGLGRHRARNLYPLVLKQTIPNLSEYTNSASGPLEGVIRRDSPKFKDLVPNYN RDI LFRDEE'
+seq = 'MRHIAHTQRCLSRLTSLVALLLIVLPMVFSPAHSCGPGRGLGRHRARNLYPLVLKQTIPNLSEYTNSASGPLEGVIRRDSPKFKDLVPNYNRDILFRDEE'
 peptides = seq.split(dp)
 
-print peptides
+print "Peptides: ",peptides
 
 #15 align two sequences
 
@@ -125,10 +143,31 @@ while a!= end:
 orf =''
 for i in list0:
     orf+=i
-print orf
+print "ORF: ",orf
 
 #17 longest ORF
-
+s1 = "AAGCCGAUGCAAGUCAAUAAUGCCAUGGUACGUGCUGACUGCUGAGGAUGGCUAGCUAGUCGAUCACUGAGCUAUG"
+start = 'AUG'
+stop = ['UAG', 'UAA', 'UGA']
+sp, se =-1, -1
+maxl, maxr = 0, ''
+n = len(s1)
+for j in range(3):
+    for i in range(j, n-2, 3):
+        codon = s1[i:i+3]
+        if codon == start:
+            sp =i
+        if codon in stop:
+            se =i+3
+            if sp>=0:
+                length = se-sp
+                print s1[sp:se],length
+                if length > maxl:
+                    maxl = length
+                    maxr = s1[sp:se]
+                    sp,se = -1,-1
+    sp,se = -1, -1
+print 'longest', maxr, maxl
 
 
 
