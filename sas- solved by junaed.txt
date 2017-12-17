@@ -1,0 +1,171 @@
+# No. 2 - hat control statement
+
+# No. 3 - sum of nth odd number
+n = int(raw_input("Enter a number: "))
+oddsum = 0
+for i in range(1,n):
+    if(i % 2 == 1):
+        oddsum += i
+print oddsum
+
+# No. 4 - sum of nth even number
+evensum = 0
+for i in range(n):
+    if(i % 2 == 0):
+        evensum += i
+print evensum
+
+# No. 5 - length of a sequence
+
+seq = raw_input("Enter a sequence: ")
+slen = 0
+
+for i in seq:
+    slen += 1
+
+print slen
+
+# No. 6 - count the nucleotides of a seq
+
+ntd = {'A': 0, 'T': 0, 'C': 0, 'G': 0}
+
+for n in seq:
+    ntd[n] += 1
+
+print ntd
+
+# No. 7 - dot plot for two seq
+
+s1 = raw_input("Enter first sequence: ")
+s2 = raw_input("Enter second sequence: ")
+
+matrix = []
+
+for i in range(len(s2)):
+    tmp = []
+    for j in range(len(s1)):
+        tmp.append('0')
+    matrix.append(tmp)
+
+
+for i, v1 in enumerate(s1):
+    for j, v2 in enumerate(s2):
+        if v1 == v2:
+          matrix[j][i] = '1'
+
+for row in matrix:
+  cols = ''
+  for col in row:
+    cols += col
+  print cols
+
+
+# No. 8 - generate random DNA seq of len N
+import random
+n = int(raw_input("Enter Sequence Length: "))
+
+ntds = list("ATCG")
+nseq = ""
+for i in range(n):
+    nseq += random.choice(ntds)
+
+print nseq
+# No. 9 - random protein seq of len N
+
+import random
+n = int(raw_input("Enter protein sequence length: "))
+aas = "GALMFWKQESPVICYHRNDT"
+
+aseq = ""
+for i in range(n):
+    aseq += random.choice(aas)
+print aseq
+
+# No. 10 - point mutation of two seq s1 and s2
+s1 = raw_input("Enter first seq: ")
+s2 = raw_input("Enter second seq: ")
+
+if (len(s1) != len(s2)):
+    print "sequence must be same length"
+else:
+    for i in range(len(s1)):
+        if (s1[i] != s2[i]):
+            print "point mutation in position - ", i
+
+# No. 11 - generate all permutations of 3 ntds i.e codons
+
+import itertools
+codons = list(itertools.permutations(['A', 'U', 'G', 'C'], 3))
+for i in codons:
+    print i
+
+# No. 12 - consensus sequence from sequences
+
+seqList = ['TTCAAGCT','TGGCAACT','TTGGATCT','TAGCAACC','TTGGAACT','ATGCCATT','ATGGCACT']
+n = len(seqList[0])
+profile = { 'T':[0]*n,'G':[0]*n ,'C':[0]*n,'A':[0]*n }
+
+for seq in seqList:
+
+    for i, char in enumerate(seq):
+        profile[char][i] += 1
+
+
+
+consensus = ""
+for i in range(n):
+    max_count = 0
+    max_nt = 'x'
+    for nt in "ACGT":
+        if profile[nt][i] > max_count:
+            max_count = profile[nt][i]
+            max_nt = nt
+    consensus += max_nt
+print(consensus)
+
+
+# No. 13 - K-mers of a sequence given k
+
+seq = 'ACATTTATCA'
+k = 3
+n = len(seq)
+
+for i in range(n - k + 1):
+    print seq[i: i+k]
+
+# No. 14 - Digest protein into peptides
+seq = 'MRHAHTQRCLSRLTSLVALLLIVLPMVFSPAHSCGPGRGLGRHRARNLYPLVLKQTIPNLSEYTNSASGPLEGVIRRDSPKFKDKLVPNYNRDILFRDEE'
+
+c = 'L'
+peptides = [p for p in seq.split(c) if p]
+
+# No. 15 - Align two sequence
+
+
+# No. 16 - find ORF in sequence
+s1 = 'AAAAUGGAUGGACAAUAUAAUGAUUUUUUA'
+
+start = 'AUG'
+stop = ['UAG', 'UAA', 'UGA']
+
+sp, se = -1, -1
+maxl, maxr = 0, ''
+n = len(s1)
+
+for j in range(3):
+    for i in range(j, n-2, 3):
+        codon = s1[i: i+3]
+        if codon == start:
+            sp = i
+        if codon in stop:
+            se = i + 3
+            if sp >= 0:
+                length = se - sp
+                print s1[sp:se], length
+                if length > maxl:
+                    maxl = length
+                    maxr = s1[sp:se]
+                    sp, se = -1, -1
+    sp, se = -1, -1
+
+print '', maxr, maxl

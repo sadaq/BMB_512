@@ -6,7 +6,7 @@ with open("01.fasta", 'r') as fh:
         if not line.startswith(">"):
             seq = line
             print line
-#3
+#3 GC count
 def GC(seq):
     seq = seq.upper()
     total = float(len(seq))

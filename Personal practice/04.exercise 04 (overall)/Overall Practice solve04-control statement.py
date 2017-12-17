@@ -27,7 +27,7 @@ print length
 #6
 #same as 5
 
-#7
+#7 Dot plot
 s1 = "ATGCATGC"
 s2 = "ATGCATGC"
 
@@ -129,12 +129,12 @@ print "Peptides: ",peptides
 
 #16 ORF
 start = "AUG"
-end = "UAG"
+end = ["UAA","UAG", "UGA"]
 seq ='AGCAUGAAUGCAUGCACCACGAAAUAGUUAGGAUCG'
 s = seq.find(start)
 list0 = []
-a = "AAA"
-while a!= end:
+a = "xxx"
+while a not in end:
     if len(a) == 3:
         a = seq[s:s+3]
         list0.append(a)
