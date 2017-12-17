@@ -20,8 +20,8 @@ del adict[b]
 '''
 print adict
 # searching
-adict["a"]
+print adict["a"]
 #or
-adict.get("a")
+print adict.get("a")
 print adict
 

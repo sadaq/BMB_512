@@ -1,11 +1,10 @@
 # FIles
 #2
-seq = ''
 with open("01.fasta", 'r') as fh:
     lines0 = fh.readlines()
     for line in lines0:
         if not line.startswith(">"):
-            seq+= line
+            seq = line
             print line
 #3
 def GC(seq):

@@ -86,7 +86,6 @@ n = len(seqList[0])
 profile = { 'T':[0]*n,'G':[0]*n ,'C':[0]*n,'A':[0]*n }
 
 for seq in seqList:
-
     for i, char in enumerate(seq):
         profile[char][i] += 1
 

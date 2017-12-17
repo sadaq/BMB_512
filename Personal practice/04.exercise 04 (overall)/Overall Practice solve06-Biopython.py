@@ -1,5 +1,6 @@
 # Biopython
 #1
+import Bio
 from Bio.Seq import Seq
 from Bio.Alphabet import IUPAC
 
@@ -57,4 +58,4 @@ print alignments[0]
 #9
 from Bio import AlignIO
 alignment = AlignIO.read("myalingn.fasta", 'fasta')
-print(alignment)
+print alignment

@@ -16,6 +16,7 @@ import random
 seq = "ATGCATTGCATCGATCAACGTA"
 bases = 'ATGC'
 point = random.randint(0,len(seq))
+print point
 mutation = random.choice(bases)
 newseq = seq[:point] + mutation + seq[point+1:]
 print newseq

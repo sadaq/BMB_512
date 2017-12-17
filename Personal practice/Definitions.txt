@@ -1,10 +1,10 @@
 Collections
-Instances of primitive Python types represent individual values. Python also has built-in types that are 
-compound, meaning that they group together multiple objects. These are called collections or containers.
+Python has built-in types that are  compound, meaning that they group together multiple objects. 
+These are called collections or containers.
 There are three categories of built-in collection types in Python: 
-sets, 
-sequences and 
-mappings.
+	sets, 
+	sequences and 
+	mappings.
 
 
 Parsing
@@ -26,13 +26,13 @@ following formats: Blast output - both from standalone and \MWW Blast, Clustalw,
 ExPASy files, like Enzyme and Prosite, SCOP, including'dom'and'lin'files, UniGene, SwissProt
 2. Files in the supported formats can be iterated over record by record or indexed and accessed via a 
 Dictionary interface.
-3. Code to deal with popular on-line bioinformatics destinations such as:
-o NCBI - Blast, Entrez and PubMed services
-o ExPASy - Swiss-Prot and Prosite entries, as well as Prosite searches
+3. Code to deal with popular online bioinformatics destinations such as:
+	o NCBI - Blast, Entrez and PubMed services
+	o ExPASy - Swiss-Prot and Prosite entries, as well as Prosite searches
 4. Interfaces to common bioinformatics programs such as:
-o Standalone Blast from NCBI
-o Clustalw alignment program
-o EMBOSS command line tools
+	o Standalone Blast from NCBI
+	o Clustalw alignment program
+	o EMBOSS command line tools
 5. A standard sequence class that deals with sequences, ids on sequences, and sequence features.
 6. Tools for performing common operations on sequences, such as translation, transcription and weight calculations.
 7. Code to perform classification of data using k Nearest Neighbors, Naive Bayes or Support Vector Machines.

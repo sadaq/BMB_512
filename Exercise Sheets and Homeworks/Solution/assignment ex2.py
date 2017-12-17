@@ -71,7 +71,7 @@ for i in money:
     if i>10:
         print i
 #3
-for i in sorted(money, reverse = True):
+for i in sorted(money, reverse=True):
     print i
 
 
